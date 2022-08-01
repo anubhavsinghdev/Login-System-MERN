@@ -1,9 +1,9 @@
 import React from "react";
 import { HashRouter, Routes, Route } from "react-router-dom"
-import Navbar from "./Navbar";
-import Home from "./Home";
-import Login from "./Login";
-import Register from "./Register";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Login from "./components/Login";
+import Register from "./components/Register";
 
 const App = () => {
     return (
